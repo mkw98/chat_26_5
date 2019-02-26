@@ -16,7 +16,6 @@ module.exports = (env) => {
             })
         )
   }
-
   return {
     mode: environment,
     entry: './client/index.js',
@@ -31,7 +30,7 @@ module.exports = (env) => {
           ws: true
         }
       }
-    }
+    },
     plugins: plugins,
     module: {
       rules: [{

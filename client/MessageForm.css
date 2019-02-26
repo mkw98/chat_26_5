@@ -1,0 +1,4 @@
+.MessageForm {
+    display: flex;
+    flex-direction: row;
+}
